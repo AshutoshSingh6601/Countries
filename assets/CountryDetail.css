@@ -1,0 +1,79 @@
+.CountryContainer{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.MainCountryDetail{
+    display: flex;
+    height: 100vh;
+}
+
+.LeftCountryDetail{
+    /* width: 100vw; */
+    height: 20rem;
+}
+
+/* .RightCountryDetail{
+    width: 100vw;
+} */
+
+.RightCountryDetail p{
+    margin-bottom: .8rem;
+}
+
+.RightCountryDetail p span{
+    font-weight: bold;
+}
+
+.LeftCountryDetail img{
+    width: 80%;
+    height: 100%;
+    border-radius: .6rem;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+    display: block;
+}
+
+.backBtn{
+    margin: 3rem 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px 0px rgb(100 116 139);
+    padding: .2rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bordersName{
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 0px rgb(140, 140, 140);
+    padding: .2rem .5rem;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+@media screen and (max-width: 426px) {
+    .MainCountryDetail{
+        display: block;
+    }
+    .LeftCountryDetail{
+        height: 200px;
+    }
+    .LeftCountryDetail img{
+        width: 100%;
+        height: 100%;
+        border-radius: .3rem;
+    }
+    .CountryContainer{
+        margin: auto;
+        width: 90%;
+    }
+    .backBtn{
+        margin: 2rem .1rem;
+    }
+}

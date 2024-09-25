@@ -1,0 +1,13 @@
+.filters{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+@media screen and (max-width: 426px) {
+    .filters{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}

@@ -1,0 +1,49 @@
+.shimmerMainDetail{
+    display: flex;
+    /* height: 100vh; */
+    width: 80%;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.shimmerLeftDetail{
+    width: 100vw;
+    height: 20rem;
+}
+
+.shimmerRightDetail{
+    width: 100vw;
+}
+
+.detailImg{
+    width: 60%;
+    height: 70%;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+    display: block;
+    background-color: rgb(180, 180, 180);
+}
+
+.shimmerRightDetail .shimmerRightContentDetail{
+    display: flex;
+}
+
+.shimmerRightDetail .shimmerRightContentDetail p:nth-child(odd){
+    width: 40%;
+    height: 2rem;
+    margin-right: 1rem;
+    background-color: rgb(180, 180, 180);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.shimmerRightDetail .shimmerRightContentDetail p{
+    width: 60%;
+    height: 2rem;
+    margin-right: 1rem;
+    background-color: rgb(180, 180, 180);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
